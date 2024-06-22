@@ -1,5 +1,10 @@
-@if (isLoggedIn ) {
-<p>Bienvenido,{{userName}}</p>
-}@else {
-    <p>Inicia sesion</p> 
-}
+<section>
+    @if (isLoggedIn ) {
+        <p>Bienvenido,{{userName}}</p>
+        }@else {
+            <p>Inicia sesion</p> 
+        }       
+</section>
+
+<app-games> </app-games>
+

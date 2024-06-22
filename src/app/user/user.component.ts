@@ -11,5 +11,10 @@ import { GamesComponent } from '../games/games.component';
 export class UserComponent {
   userName = 'wilson';
   isLoggedIn = true;
+
+  //metodo greet para lazar una alerta
+  greet(){
+    alert('Hola')
+  }
 }
 

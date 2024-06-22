@@ -5,12 +5,14 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template:`
-    <p>Welcome game works</p>
-    <ul>
-      @for (item of games; track item.id) {
-        <li>{{item.name}}</li>
-      }
-    </ul>
+    <section>
+      <p>Welcome game works</p>
+      <ul>
+        @for (item of games; track item.id) {
+          <li>{{item.name}}</li>
+        }
+      </ul>
+    </section>
   `,
   styleUrl: './games.component.css'
 })

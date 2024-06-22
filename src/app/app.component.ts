@@ -6,7 +6,7 @@ import { RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [RouterOutlet],
   //templateUrl: './app.component.html',
-  template: 'Hello {{ city }}',
+  template: 'Hello {{ city }}, {{ 1 + 1 }}',
   //styleUrl: './app.component.css'
   styles: ':host {color: #a144eb;}'
 })
@@ -14,4 +14,3 @@ export class AppComponent {
   title = 'EjercicioTutorial';
   city = 'San Francisco';
 }
-
